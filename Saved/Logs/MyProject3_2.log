@@ -1,0 +1,1315 @@
+﻿Log file open, 08/26/16 18:24:21
+LogInit:Display: Running engine for game: MyProject3
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: D:/Unreal/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2016.08.26-10.24.21:637][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2016.08.26-10.24.21:688][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.08.26-10.24.21:697][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.08.26-10.24.21:705][  0]LogInit: Object subsystem initialized
+[2016.08.26-10.24.21:706][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.08.26-10.24.21:706][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.08.26-10.24.21:706][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.08.26-10.24.21:706][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.08.26-10.24.21:706][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.08.26-10.24.21:706][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.08.26-10.24.21:706][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.26-10.24.21:706][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.26-10.24.21:712][  0]LogInit: Computer: ESHAN-WS
+[2016.08.26-10.24.21:712][  0]LogInit: User: Eshan
+[2016.08.26-10.24.21:712][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.08.26-10.24.21:712][  0]LogInit: High frequency timer resolution =3.386952 MHz
+[2016.08.26-10.24.21:712][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2016.08.26-10.24.21:712][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.26-10.24.21:712][  0]LogMemory: Process Physical Memory: 45.94 MB used, 45.94 MB peak
+[2016.08.26-10.24.21:712][  0]LogMemory: Process Virtual Memory: 24.77 MB used, 24.77 MB peak
+[2016.08.26-10.24.21:712][  0]LogMemory: Physical Memory: 11728.85 MB used, 16322.67 MB total
+[2016.08.26-10.24.21:712][  0]LogMemory: Virtual Memory: 291.58 MB used, 134217728.00 MB total
+[2016.08.26-10.24.21:741][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 Ti (Feature Level 11_0)
+[2016.08.26-10.24.21:741][  0]LogD3D11RHI: Adapter has 1984MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.08.26-10.24.21:742][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.08.26-10.24.21:742][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.08.26-10.24.21:742][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.08.26-10.24.21:746][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.26-10.24.21:757][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.26-10.24.21:835][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.08.26-10.24.21:885][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (D:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (D:/Unreal/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2016.08.26-10.24.21:885][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (D:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (D:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2016.08.26-10.24.21:959][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.08.26-10.24.23:917][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.26-10.24.24:443][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.26-10.24.24:488][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.26-10.24.24:525][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Eshan/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2016.08.26-10.24.24:525][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Eshan/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2016.08.26-10.24.24:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Eshan/Documents/Unreal Projects/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.26-10.24.24:525][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.26-10.24.24:628][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.26-10.24.24:640][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Eshan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.26-10.24.24:869][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.26-10.24.24:869][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.26-10.24.25:149][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.26-10.24.25:200][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2016.08.26-10.24.25:804][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.26-10.24.25:960][  0]SourceControl: Info Source control is disabled
+[2016.08.26-10.24.25:961][  0]SourceControl: Info Source control is disabled
+[2016.08.26-10.24.25:961][  0]SourceControl: Info Source control is disabled
+[2016.08.26-10.24.25:961][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2016.08.26-10.24.25:961][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2016.08.26-10.24.25:966][  0]SourceControl: Info Source control is disabled
+[2016.08.26-10.24.26:096][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2016.08.26-10.24.26:096][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2016.08.26-10.24.26:167][  0]LogEngine: Initializing Engine...
+[2016.08.26-10.24.28:308][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.26-10.24.28:314][  0]LogInit: FAudioDevice initialized.
+[2016.08.26-10.24.28:338][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.26-10.24.28:357][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Eshan/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2016.08.26-10.24.28:359][  0]LogInit: Texture streaming: Enabled
+[2016.08.26-10.24.28:424][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.08.26-10.24.28:424][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2016.08.26-10.24.28:424][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2016.08.26-10.24.28:424][  0]LogAnalytics: SetUserId 9341e7db41f29c63f25f3ca3f7e59d5b|0f0e5efa78674cc3929d7f77452aff42|46c1b6f5-baa3-4295-9f38-cd9b00ba563a
+[2016.08.26-10.24.28:424][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2016.08.26-10.24.28:448][  0]LogInit: Transaction tracking system initialized
+[2016.08.26-10.24.28:562][  0]BlueprintLog: New page: Editor Load
+[2016.08.26-10.24.28:588][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2016.08.26-10.24.28:588][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.08.26-10.24.29:056][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.26-10.24.29:525][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.26-10.24.29:723][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2016.08.26-10.24.29:723][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2016.08.26-10.24.29:727][  0]LogConsoleResponse:Display: 
+[2016.08.26-10.24.29:836][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.26-10.24.29:960][  0]SourceControl: Info Source control is disabled
+[2016.08.26-10.24.29:960][  0]Cmd: MAP LOAD FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.26-10.24.29:963][  0]LightingResults: New page: Lighting Build
+[2016.08.26-10.24.29:972][  0]MapCheck: New page: Map Check
+[2016.08.26-10.24.29:972][  0]LightingResults: New page: Lighting Build
+[2016.08.26-10.24.29:980][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002B2CF54D60
+[2016.08.26-10.24.30:639][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.24.30:640][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.24.30:642][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.26-10.24.30:734][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.08.26-10.24.30:737][  0]Cmd: MAP CHECKDEP
+[2016.08.26-10.24.30:737][  0]MapCheck: New page: Minimal_Default - Aug 27, 2016, 2:24:30 AM
+[2016.08.26-10.24.30:801][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.96ms to complete.
+[2016.08.26-10.24.30:801][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.842
+[2016.08.26-10.24.31:216][  0]LogCollectionManager: Loaded 0 collections in 0.001774 seconds
+[2016.08.26-10.24.31:224][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 1696 classes and 261 folders.
+[2016.08.26-10.24.31:251][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2016.08.26-10.24.31:287][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.26-10.24.31:288][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2016.08.26-10.24.31:344][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.26-10.24.31:371][  0]LogLoad: Full Startup: 11.39 seconds (BP compile: 0.08 seconds)
+[2016.08.26-10.24.31:774][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2016.08.26-10.24.31:902][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2016.08.26-10.24.32:123][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:16).
+[2016.08.26-10.24.33:214][  4]LogAssetRegistry: Asset discovery search completed in 4.6359 seconds
+[2016.08.26-10.24.53:896][953]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube2)
+[2016.08.26-10.25.08:769][956]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2016.08.26-10.29.28:631][845]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Laundry Room\Locker.fbx)
+[2016.08.26-10.29.28:635][845]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.08.26-10.29.28:636][845]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.08.26-10.29.28:636][845]LogFbx: ItemName: Model, ItemCount : 1
+[2016.08.26-10.29.28:636][845]LogFbx: ItemName: Material, ItemCount : 1
+[2016.08.26-10.30.21:575][845]LogFbx: Loading FBX Scene from E:\Laundry Room\Locker.fbx
+[2016.08.26-10.30.21:580][845]LogFbx: FBX Scene Loaded Succesfully
+[2016.08.26-10.30.21:582][845]LogFbx:Warning: Triangulating static mesh Cube.008
+[2016.08.26-10.30.21:606][845]LogFbx: == Initial material list:
+[2016.08.26-10.30.21:606][845]LogFbx: 0: Material.010
+[2016.08.26-10.30.21:606][845]LogFbx: == After sorting:
+[2016.08.26-10.30.21:606][845]LogFbx: 0: Material.010
+[2016.08.26-10.30.21:606][845]LogFbx: == Mapping table:
+[2016.08.26-10.30.21:606][845]LogFbx:   sort 0 -> 0
+[2016.08.26-10.30.21:607][845]LogStaticMesh: Building static mesh Locker...
+[2016.08.26-10.30.21:613][845]LogStaticMesh: Built static mesh [6.006876ms] /Game/Meshes/Locker.Locker
+[2016.08.26-10.30.21:644][845]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.08.26-10.30.21:798][845]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.08.26-10.30.21:798][845]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2016.08.26-10.30.28:776][ 25]LogActorFactory: Actor Factory created Locker
+[2016.08.26-10.30.30:681][106]LogActorFactory: Actor Factory created Locker
+[2016.08.26-10.30.50:595][695]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.08.26-10.31.18:316][904]Cmd: POLY SELECT ADJACENT WALLS
+[2016.08.26-10.31.19:224][950]Cmd: DUPLICATE
+[2016.08.26-10.31.19:224][950]Cmd: ACTOR DUPLICATE
+[2016.08.26-10.31.27:757][578]Cmd: DUPLICATE
+[2016.08.26-10.31.27:757][578]Cmd: ACTOR DUPLICATE
+[2016.08.26-10.31.33:264][965]Cmd: DUPLICATE
+[2016.08.26-10.31.33:264][965]Cmd: ACTOR DUPLICATE
+[2016.08.26-10.31.43:602][801]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2016.08.26-10.31.46:199][879]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2016.08.26-10.31.52:580][218]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.26-10.32.36:060][481]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 E:\Laundry Room\Locker_Normal Bake.png)
+[2016.08.26-10.32.36:181][481]0.000038 seconds to analyze Texture2D /Game/Textures/Locker_Normal_Bake.Locker_Normal_Bake
+
+[2016.08.26-10.32.36:188][481]LogTexture:Display: Building textures: Locker_Normal_Bake (AutoDXT)
+[2016.08.26-10.32.36:799][481]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.08.26-10.32.36:799][481]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.26-10.32.40:094][593]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2016.08.26-10.32.42:986][697]LogTexture:Display: Building textures: Locker_Normal_Bake (BC5)
+[2016.08.26-10.32.43:152][697]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.32.43:152][697]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.32.43:155][697]LogMaterial: 0.003193 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.32.45:217][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Locker_Normal_Bake" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Locker_Normal_Bake.uasset" SILENT=true
+[2016.08.26-10.32.45:603][741]LogSavePackage: Save=385.495575ms
+[2016.08.26-10.32.45:603][741]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Locker_Normal_Bake77C07093437B98C367BC879703FA134D.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Locker_Normal_Bake.uasset'
+[2016.08.26-10.32.56:779][226]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2016.08.26-10.33.01:363][300]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.01:432][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2016.08.26-10.33.01:488][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2016.08.26-10.33.01:488][300]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2016.08.26-10.33.01:488][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2016.08.26-10.33.01:488][300]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2016.08.26-10.33.01:490][300]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.01:494][300]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.33.02:390][363]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2016.08.26-10.33.02:390][363]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.08.26-10.33.02:390][363]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.08.26-10.33.06:511][456]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.26-10.33.09:704][486]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.09:708][486]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.33.09:709][486]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.26-10.33.09:741][486]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.26-10.33.10:382][499]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2016.08.26-10.33.10:382][499]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.08.26-10.33.10:382][499]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.08.26-10.33.15:445][573]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.15:450][573]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.33.15:487][573]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.26-10.33.16:548][578]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2016.08.26-10.33.16:548][578]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.33.16:548][578]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.08.26-10.33.17:774][609]LogSavePackage: Save=215.109039ms
+[2016.08.26-10.33.17:774][609]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default973761D8407963C6CE7C718C862E368B.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.08.26-10.33.17:787][609]LogFileHelpers: Saving map 'Minimal_Default' took 0.311
+[2016.08.26-10.33.17:807][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Locker" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Meshes/Locker.uasset" SILENT=true
+[2016.08.26-10.33.18:088][609]LogSavePackage: Save=280.084290ms
+[2016.08.26-10.33.18:088][609]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Locker996BE4604D2F336F688574B5293A864B.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Meshes/Locker.uasset'
+[2016.08.26-10.33.18:120][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Locker" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset" SILENT=true
+[2016.08.26-10.33.18:380][609]LogSavePackage: Save=258.481659ms
+[2016.08.26-10.33.18:380][609]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/LockerB700D7DE4C08A546926130A7EED7CDA2.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset'
+[2016.08.26-10.33.27:141][925]LogMaterialEditor: Applying material Locker
+[2016.08.26-10.33.28:288][925]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.28:302][925]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.33.28:515][925]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.28:530][925]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.28:537][925]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.33.28:537][925]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.33.28:545][925]LogMaterial: 0.007853 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.33.29:997][961]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2016.08.26-10.33.29:997][961]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.33.29:997][961]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.08.26-10.33.35:014][137]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.35:017][137]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.33.35:018][137]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.08.26-10.33.36:029][157]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2016.08.26-10.33.36:029][157]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.33.36:029][157]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.08.26-10.33.40:173][235]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.40:178][235]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.33.40:230][235]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.08.26-10.33.40:758][237]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2016.08.26-10.33.40:758][237]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.33.40:759][237]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.08.26-10.33.47:869][393]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.47:875][393]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.33.47:905][393]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.08.26-10.33.48:411][404]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2016.08.26-10.33.48:411][404]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.33.48:411][404]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.08.26-10.33.54:982][534]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.54:985][534]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.33.55:016][534]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.08.26-10.33.55:546][547]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2016.08.26-10.33.55:546][547]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.33.55:546][547]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.08.26-10.33.57:413][595]LogMaterialEditor: Saving and Compiling material Locker
+[2016.08.26-10.33.58:547][595]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.58:561][595]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.33.58:730][595]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.58:748][595]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.33.58:755][595]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.33.58:756][595]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.33.58:760][595]LogMaterial: 0.005370 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.33.59:967][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Locker" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset" SILENT=true
+[2016.08.26-10.34.00:241][595]LogSavePackage: Save=264.431549ms
+[2016.08.26-10.34.00:241][595]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Locker40BBF27540A142A442D19997BA4B0C90.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset'
+[2016.08.26-10.34.00:433][595]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2016.08.26-10.34.00:433][595]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.34.00:433][595]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.08.26-10.34.08:129][832]LogMaterialEditor: Saving and Compiling material Locker
+[2016.08.26-10.34.09:270][832]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.34.09:286][832]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.34.09:482][832]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.34.09:497][832]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.34.09:503][832]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.34.09:503][832]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.34.09:511][832]LogMaterial: 0.008631 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.34.10:839][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Locker" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset" SILENT=true
+[2016.08.26-10.34.11:110][832]LogSavePackage: Save=262.238739ms
+[2016.08.26-10.34.11:110][832]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/LockerBCDA3389406BCC15DD6C2680900683BE.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset'
+[2016.08.26-10.34.16:113][961]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2016.08.26-10.35.15:707][211]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Locker4)
+[2016.08.26-10.35.53:280][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002B3BFB34C0
+[2016.08.26-10.35.53:802][265]LogSavePackage: Save=214.916840ms
+[2016.08.26-10.35.53:802][265]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_DefaultA7AE095F41769EE79ECC8BAE51AD995F.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.08.26-10.35.53:814][265]LogFileHelpers: Saving map 'Minimal_Default' took 0.304
+[2016.08.26-10.35.56:375][313]MapCheck: New page: Map Check
+[2016.08.26-10.35.56:479][313]LightingResults: New page: Lighting Build - Aug 27, 2016, 2:35:56 AM
+[2016.08.26-10.35.59:585][313]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.08.26-10.35.59:585][313]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.08.26-10.35.59:585][313]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.08.26-10.35.59:585][313]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.08.26-10.35.59:585][313]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.08.26-10.35.59:585][313]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.08.26-10.35.59:785][313]LogEditorBuildUtils: Build time 0:00:03
+[2016.08.26-10.35.59:927][314]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Locker, compiling. 
+[2016.08.26-10.35.59:930][314]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Locker, compiling. 
+[2016.08.26-10.36.17:153][862]Job is a success!
+[2016.08.26-10.36.17:597][863]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.36.17:598][863]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.36.17:744][863]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.36.17:744][863]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.36.17:744][863]LogMaterial:Warning: Material /Game/Materials/Locker.Locker needed to have new flag set bUsedWithStaticLighting !
+[2016.08.26-10.36.17:746][863]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.36.17:760][863]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.36.18:113][863]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.08.26-10.36.18:649][863]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.08.26-10.36.18:653][863]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.08.26-10.36.18:659][863]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.08.26-10.36.18:905][863]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.08.26-10.36.19:214][863]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.08.26-10.36.19:796][863]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.08.26-10.36.19:904][863]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.08.26-10.36.19:978][863]Lightmass on ESHAN-WS: 18.7 sec total, 116 ms importing, 7 ms setup, 440 ms photons, 18.1 sec processing, 0 ms extra exporting [19/19 mappings]. Threads: 2:06 min total, 1:05 min processing.
+[2016.08.26-10.36.20:033][863]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.36.20:033][863]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.36.20:155][863]LogStaticLightingSystem: Illumination: 23.4 sec (1.95 sec encoding lightmaps)
+[2016.08.26-10.36.20:155][863]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.08.26-10.36.20:155][863]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.08.26-10.36.20:622][864]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.08.26-10.36.20:622][864]MapCheck: New page: Minimal_Default - Aug 27, 2016, 2:36:20 AM
+[2016.08.26-10.36.20:623][864]MapCheck:Error: Error Cube2 Cube2 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.36.20:623][864]MapCheck:Error: Error Cube_14 Cube_14 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.36.20:689][864]MapCheck: Info Map check complete: 2 Error(s), 0 Warning(s), took 67.332ms to complete.
+[2016.08.26-10.36.31:280][348]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.08.26-10.36.55:019][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.08.26-10.36.56:733][657]Cmd: DUPLICATE
+[2016.08.26-10.36.56:733][657]Cmd: ACTOR DUPLICATE
+[2016.08.26-10.37.11:695][874]Cmd: DUPLICATE
+[2016.08.26-10.37.11:695][874]Cmd: ACTOR DUPLICATE
+[2016.08.26-10.37.15:933][220]Cmd: TRANSACTION UNDO
+[2016.08.26-10.37.15:933][220]LogEditorTransaction: Undo Rotate Actors
+[2016.08.26-10.37.17:279][241]Cmd: MODE ROTGRID=1
+[2016.08.26-10.37.37:744][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2016.08.26-10.37.45:927][305]MapCheck: New page: Map Check
+[2016.08.26-10.37.46:045][305]LightingResults: New page: Lighting Build - Aug 27, 2016, 2:37:46 AM
+[2016.08.26-10.37.50:581][305]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.08.26-10.37.50:581][305]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.08.26-10.37.50:581][305]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.08.26-10.37.50:581][305]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.08.26-10.37.50:581][305]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.08.26-10.37.50:581][305]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.08.26-10.37.50:748][305]LogEditorBuildUtils: Build time 0:00:04
+[2016.08.26-10.38.07:162][722]Job is a success!
+[2016.08.26-10.38.07:933][723]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.38.07:933][723]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.38.08:015][723]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.38.08:015][723]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.38.08:184][723]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.08.26-10.38.08:663][723]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.08.26-10.38.08:666][723]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.08.26-10.38.08:671][723]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.08.26-10.38.08:843][723]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.08.26-10.38.09:142][723]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.08.26-10.38.09:698][723]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2016.08.26-10.38.09:805][723]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2016.08.26-10.38.09:835][723]Lightmass on ESHAN-WS: 18.5 sec total, 118 ms importing, 7 ms setup, 451 ms photons, 17.9 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 2:05 min total, 1:07 min processing.
+[2016.08.26-10.38.09:920][723]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.38.09:920][723]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.38.10:007][723]LogStaticLightingSystem: Illumination: 23.4 sec (1.73 sec encoding lightmaps)
+[2016.08.26-10.38.10:007][723]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.08.26-10.38.10:007][723]LogStaticLightingSystem: Shadowmap texture memory: 21.4 MB (21.4 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.08.26-10.38.10:605][724]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.08.26-10.38.10:605][724]MapCheck: New page: Minimal_Default - Aug 27, 2016, 2:38:10 AM
+[2016.08.26-10.38.10:614][724]MapCheck:Error: Error Cube2 Cube2 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.38.10:614][724]MapCheck:Error: Error Cube_14 Cube_14 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.38.10:678][724]MapCheck: Info Map check complete: 2 Error(s), 0 Warning(s), took 73.007ms to complete.
+[2016.08.26-10.38.35:865][292]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.26-10.38.51:367][ 15]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2016.08.26-10.38.52:780][ 38]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.38.52:802][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2016.08.26-10.38.52:957][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2016.08.26-10.38.52:957][ 38]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2016.08.26-10.38.52:957][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2016.08.26-10.38.52:957][ 38]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2016.08.26-10.38.52:960][ 38]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.38.52:965][ 38]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.38.52:993][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.08.26-10.38.52:995][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.26-10.38.53:996][ 56]MaterialEditorStats: Info Base pass shader with static lighting: 75 instructions
+[2016.08.26-10.38.53:996][ 56]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2016.08.26-10.38.53:996][ 56]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.38.53:996][ 56]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.08.26-10.39.16:375][874]LogMaterialEditor: Saving and Compiling material Locker
+[2016.08.26-10.39.17:499][874]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.39.17:514][874]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.39.17:688][874]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.39.17:718][874]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.39.17:727][874]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.39.17:727][874]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.39.17:731][874]LogMaterial: 0.004691 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.39.19:669][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Locker" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset" SILENT=true
+[2016.08.26-10.39.19:938][874]LogSavePackage: Save=259.309265ms
+[2016.08.26-10.39.19:938][874]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Locker4296995E483D67898B3C5C9CC023FCF9.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset'
+[2016.08.26-10.39.19:960][874]MaterialEditorStats: Info Base pass shader with static lighting: 95 instructions
+[2016.08.26-10.39.19:960][874]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2016.08.26-10.39.19:960][874]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.39.19:960][874]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.08.26-10.39.23:595][949]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.39.23:600][949]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.39.23:630][949]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.08.26-10.39.24:234][959]MaterialEditorStats: Info Base pass shader with static lighting: 75 instructions
+[2016.08.26-10.39.24:234][959]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2016.08.26-10.39.24:234][959]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.39.24:234][959]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.08.26-10.39.30:297][127]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.39.30:302][127]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.39.30:338][127]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.08.26-10.39.30:915][130]MaterialEditorStats: Info Base pass shader with static lighting: 75 instructions
+[2016.08.26-10.39.30:915][130]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2016.08.26-10.39.30:915][130]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.39.30:915][130]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.08.26-10.39.35:201][269]LogMaterialEditor: Saving and Compiling material Locker
+[2016.08.26-10.39.36:326][269]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.39.36:342][269]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.39.36:513][269]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.39.36:547][269]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.39.36:556][269]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.39.36:556][269]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.39.36:560][269]LogMaterial: 0.004515 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.39.38:102][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Locker" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset" SILENT=true
+[2016.08.26-10.39.38:394][269]LogSavePackage: Save=282.375732ms
+[2016.08.26-10.39.38:394][269]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Locker0097D4B647671A37F3FB9C8D4C0ECEDC.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset'
+[2016.08.26-10.39.38:430][269]MaterialEditorStats: Info Base pass shader with static lighting: 95 instructions
+[2016.08.26-10.39.38:430][269]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2016.08.26-10.39.38:430][269]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.39.38:430][269]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.08.26-10.42.57:893][429]MapCheck: New page: Map Check
+[2016.08.26-10.42.58:009][429]LightingResults: New page: Lighting Build - Aug 27, 2016, 2:42:58 AM
+[2016.08.26-10.43.02:539][429]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.08.26-10.43.02:539][429]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.08.26-10.43.02:539][429]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.08.26-10.43.02:539][429]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.08.26-10.43.02:539][429]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.08.26-10.43.02:539][429]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.08.26-10.43.02:707][429]LogEditorBuildUtils: Build time 0:00:04
+[2016.08.26-10.43.02:748][429]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Locker, compiling. 
+[2016.08.26-10.43.02:751][429]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Locker, compiling. 
+[2016.08.26-10.43.03:623][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002B427C2840
+[2016.08.26-10.43.23:253][154]Job is a success!
+[2016.08.26-10.43.23:714][155]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.43.23:715][155]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.43.23:855][155]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.43.23:855][155]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.43.24:117][155]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.08.26-10.43.24:577][155]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.08.26-10.43.24:581][155]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.08.26-10.43.24:586][155]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.08.26-10.43.24:747][155]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.08.26-10.43.25:041][155]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.08.26-10.43.25:597][155]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2016.08.26-10.43.25:704][155]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2016.08.26-10.43.25:738][155]Lightmass on ESHAN-WS: 21.7 sec total, 122 ms importing, 7 ms setup, 460 ms photons, 21.1 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 2:27 min total, 1:23 min processing.
+[2016.08.26-10.43.25:813][155]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.43.25:814][155]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.43.25:922][155]LogStaticLightingSystem: Illumination: 27.7 sec (1.70 sec encoding lightmaps)
+[2016.08.26-10.43.25:922][155]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.08.26-10.43.25:922][155]LogStaticLightingSystem: Shadowmap texture memory: 32.0 MB (32.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.08.26-10.43.26:562][156]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.08.26-10.43.26:562][156]MapCheck: New page: Minimal_Default - Aug 27, 2016, 2:43:26 AM
+[2016.08.26-10.43.26:577][156]MapCheck:Error: Error Cube2 Cube2 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.43.26:577][156]MapCheck:Error: Error Cube_14 Cube_14 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.43.26:637][156]MapCheck: Info Map check complete: 2 Error(s), 0 Warning(s), took 74.817ms to complete.
+[2016.08.26-10.44.24:943][452]MapCheck: New page: Map Check
+[2016.08.26-10.44.25:044][452]LightingResults: New page: Lighting Build - Aug 27, 2016, 2:44:25 AM
+[2016.08.26-10.44.29:595][452]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.08.26-10.44.29:595][452]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.08.26-10.44.29:595][452]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.08.26-10.44.29:595][452]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.08.26-10.44.29:595][452]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.08.26-10.44.29:595][452]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.08.26-10.44.29:735][452]LogEditorBuildUtils: Build time 0:00:04
+[2016.08.26-10.44.52:147][285]Job is a success!
+[2016.08.26-10.44.52:634][286]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.44.52:634][286]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.44.52:818][286]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.44.52:819][286]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.44.53:012][286]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.08.26-10.44.53:478][286]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.08.26-10.44.53:480][286]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.08.26-10.44.53:486][286]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.08.26-10.44.53:658][286]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.08.26-10.44.53:981][286]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.08.26-10.44.54:537][286]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2016.08.26-10.44.54:643][286]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2016.08.26-10.44.54:689][286]Lightmass on ESHAN-WS: 24.5 sec total, 97 ms importing, 6 ms setup, 568 ms photons, 23.7 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 2:46 min total, 1:31 min processing.
+[2016.08.26-10.44.54:745][286]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.44.54:745][286]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.44.54:855][286]LogStaticLightingSystem: Illumination: 29.6 sec (1.74 sec encoding lightmaps)
+[2016.08.26-10.44.54:855][286]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.08.26-10.44.54:855][286]LogStaticLightingSystem: Shadowmap texture memory: 42.7 MB (42.7 MB streaming, 0.0 MB non-streaming), 8 textures
+[2016.08.26-10.44.55:621][287]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.08.26-10.44.55:621][287]MapCheck: New page: Minimal_Default - Aug 27, 2016, 2:44:55 AM
+[2016.08.26-10.44.55:636][287]MapCheck:Error: Error Cube2 Cube2 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.44.55:636][287]MapCheck:Error: Error Cube_14 Cube_14 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.44.55:697][287]MapCheck: Info Map check complete: 2 Error(s), 0 Warning(s), took 75.403ms to complete.
+[2016.08.26-10.45.17:412][514]MapCheck: New page: Map Check
+[2016.08.26-10.45.17:508][514]LightingResults: New page: Lighting Build - Aug 27, 2016, 2:45:17 AM
+[2016.08.26-10.45.22:065][514]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.08.26-10.45.22:065][514]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.08.26-10.45.22:065][514]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.08.26-10.45.22:065][514]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.08.26-10.45.22:065][514]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.08.26-10.45.22:065][514]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.08.26-10.45.22:222][514]LogEditorBuildUtils: Build time 0:00:04
+[2016.08.26-10.45.44:344][115]Job is a success!
+[2016.08.26-10.45.44:746][116]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.45.44:746][116]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.45.44:904][116]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.45.44:904][116]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.45.45:153][116]LogTexture:Display: Building textures: HQ_Lightmap2_1 (AutoDXT)
+[2016.08.26-10.45.45:620][116]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.08.26-10.45.45:624][116]LogTexture:Display: Building textures: HQ_Lightmap2_3 (AutoDXT)
+[2016.08.26-10.45.45:630][116]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.08.26-10.45.45:798][116]LogTexture:Display: Building textures: HQ_Lightmap2_2 (AutoDXT)
+[2016.08.26-10.45.46:097][116]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.08.26-10.45.46:683][116]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2016.08.26-10.45.46:789][116]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2016.08.26-10.45.46:840][116]Lightmass on ESHAN-WS: 24.2 sec total, 104 ms importing, 6 ms setup, 517 ms photons, 23.4 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 2:44 min total, 1:32 min processing.
+[2016.08.26-10.45.46:928][116]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.45.46:929][116]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.45.47:055][116]LogStaticLightingSystem: Illumination: 29.3 sec (1.76 sec encoding lightmaps)
+[2016.08.26-10.45.47:055][116]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.08.26-10.45.47:055][116]LogStaticLightingSystem: Shadowmap texture memory: 53.4 MB (53.4 MB streaming, 0.0 MB non-streaming), 10 textures
+[2016.08.26-10.45.56:090][117]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.08.26-10.45.56:090][117]MapCheck: New page: Minimal_Default - Aug 27, 2016, 2:45:56 AM
+[2016.08.26-10.45.56:111][117]MapCheck:Error: Error Cube2 Cube2 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.45.56:111][117]MapCheck:Error: Error Cube_14 Cube_14 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.45.56:172][117]MapCheck: Info Map check complete: 2 Error(s), 0 Warning(s), took 82.128ms to complete.
+[2016.08.26-10.46.15:768][  0]LogSavePackage: Save=309.634430ms
+[2016.08.26-10.46.15:768][  0]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default_Auto17D82162F4C5BAB1A49905EAF3BD13D81.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2016.08.26-10.46.15:823][  0]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.584
+[2016.08.26-10.46.15:823][  0]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.584
+[2016.08.26-10.46.20:798][335]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.08.26-10.46.32:059][210]MapCheck: New page: Map Check
+[2016.08.26-10.46.32:174][210]LightingResults: New page: Lighting Build - Aug 27, 2016, 2:46:32 AM
+[2016.08.26-10.46.36:717][210]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.08.26-10.46.36:717][210]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.08.26-10.46.36:717][210]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.08.26-10.46.36:717][210]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.08.26-10.46.36:717][210]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.08.26-10.46.36:717][210]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.08.26-10.46.36:886][210]LogEditorBuildUtils: Build time 0:00:04
+[2016.08.26-10.46.58:230][992]Job is a success!
+[2016.08.26-10.46.58:614][993]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.46.58:615][993]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.46.58:787][993]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.46.58:787][993]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.46.58:997][993]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.08.26-10.46.59:412][993]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.08.26-10.46.59:414][993]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.08.26-10.46.59:419][993]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.08.26-10.46.59:581][993]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.08.26-10.46.59:881][993]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.08.26-10.47.00:433][993]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2016.08.26-10.47.00:539][993]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2016.08.26-10.47.00:614][993]Lightmass on ESHAN-WS: 23.2 sec total, 114 ms importing, 7 ms setup, 531 ms photons, 22.5 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 2:37 min total, 1:26 min processing.
+[2016.08.26-10.47.00:660][993]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.47.00:660][993]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.47.00:798][993]LogStaticLightingSystem: Illumination: 28.4 sec (1.66 sec encoding lightmaps)
+[2016.08.26-10.47.00:798][993]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.08.26-10.47.00:798][993]LogStaticLightingSystem: Shadowmap texture memory: 64.1 MB (64.1 MB streaming, 0.0 MB non-streaming), 12 textures
+[2016.08.26-10.47.01:739][994]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.08.26-10.47.01:739][994]MapCheck: New page: Minimal_Default - Aug 27, 2016, 2:47:01 AM
+[2016.08.26-10.47.01:756][994]MapCheck:Error: Error Cube2 Cube2 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.47.01:756][994]MapCheck:Error: Error Cube_14 Cube_14 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.47.01:816][994]MapCheck: Info Map check complete: 2 Error(s), 0 Warning(s), took 76.833ms to complete.
+[2016.08.26-10.47.23:444][271]LogEditorViewport: Clicking Background
+[2016.08.26-10.47.24:476][370]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.08.26-10.47.41:211][ 45]MapCheck: New page: Map Check
+[2016.08.26-10.47.41:326][ 45]LightingResults: New page: Lighting Build - Aug 27, 2016, 2:47:41 AM
+[2016.08.26-10.47.45:871][ 45]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.08.26-10.47.45:871][ 45]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.08.26-10.47.45:871][ 45]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.08.26-10.47.45:871][ 45]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.08.26-10.47.45:871][ 45]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.08.26-10.47.45:871][ 45]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.08.26-10.47.46:016][ 45]LogEditorBuildUtils: Build time 0:00:04
+[2016.08.26-10.48.07:362][794]Job is a success!
+[2016.08.26-10.48.07:777][795]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.48.07:778][795]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.48.07:938][795]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.48.07:938][795]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.48.08:183][795]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.08.26-10.48.08:626][795]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.08.26-10.48.08:630][795]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.08.26-10.48.08:635][795]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.08.26-10.48.08:797][795]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.08.26-10.48.09:113][795]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.08.26-10.48.09:685][795]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2016.08.26-10.48.09:791][795]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2016.08.26-10.48.09:844][795]Lightmass on ESHAN-WS: 23.4 sec total, 105 ms importing, 6 ms setup, 516 ms photons, 22.7 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 2:39 min total, 1:26 min processing.
+[2016.08.26-10.48.09:899][795]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.48.09:899][795]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.48.10:013][795]LogStaticLightingSystem: Illumination: 28.5 sec (1.73 sec encoding lightmaps)
+[2016.08.26-10.48.10:013][795]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.08.26-10.48.10:013][795]LogStaticLightingSystem: Shadowmap texture memory: 74.7 MB (74.7 MB streaming, 0.0 MB non-streaming), 14 textures
+[2016.08.26-10.48.10:893][796]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.08.26-10.48.10:894][796]MapCheck: New page: Minimal_Default - Aug 27, 2016, 2:48:10 AM
+[2016.08.26-10.48.10:911][796]MapCheck:Error: Error Cube2 Cube2 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.48.10:911][796]MapCheck:Error: Error Cube_14 Cube_14 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.48.10:972][796]MapCheck: Info Map check complete: 2 Error(s), 0 Warning(s), took 78.483ms to complete.
+[2016.08.26-10.48.26:963][372]MapCheck: New page: Map Check
+[2016.08.26-10.48.27:059][372]LightingResults: New page: Lighting Build - Aug 27, 2016, 2:48:27 AM
+[2016.08.26-10.48.31:587][372]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.08.26-10.48.31:587][372]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.08.26-10.48.31:587][372]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.08.26-10.48.31:587][372]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.08.26-10.48.31:587][372]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.08.26-10.48.31:587][372]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.08.26-10.48.31:726][372]LogEditorBuildUtils: Build time 0:00:04
+[2016.08.26-10.48.53:402][160]Job is a success!
+[2016.08.26-10.48.53:844][161]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.48.53:845][161]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.48.53:987][161]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.48.53:987][161]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.48.54:231][161]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.08.26-10.48.54:657][161]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.08.26-10.48.54:660][161]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.08.26-10.48.54:664][161]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.08.26-10.48.54:816][161]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.08.26-10.48.55:135][161]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.08.26-10.48.55:683][161]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2016.08.26-10.48.55:789][161]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2016.08.26-10.48.55:842][161]Lightmass on ESHAN-WS: 23.6 sec total, 114 ms importing, 7 ms setup, 512 ms photons, 23.0 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 2:41 min total, 1:26 min processing.
+[2016.08.26-10.48.55:898][161]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.48.55:899][161]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.48.56:029][161]LogStaticLightingSystem: Illumination: 28.7 sec (1.68 sec encoding lightmaps)
+[2016.08.26-10.48.56:029][161]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.08.26-10.48.56:029][161]LogStaticLightingSystem: Shadowmap texture memory: 85.4 MB (85.4 MB streaming, 0.0 MB non-streaming), 16 textures
+[2016.08.26-10.48.56:611][162]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.08.26-10.48.56:611][162]MapCheck: New page: Minimal_Default - Aug 27, 2016, 2:48:56 AM
+[2016.08.26-10.48.56:629][162]MapCheck:Error: Error Cube2 Cube2 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.48.56:629][162]MapCheck:Error: Error Cube_14 Cube_14 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.48.56:690][162]MapCheck: Info Map check complete: 2 Error(s), 0 Warning(s), took 78.662ms to complete.
+[2016.08.26-10.50.11:132][690]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2016.08.26-10.50.29:009][798]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Laundry Room\Locker_open.fbx)
+[2016.08.26-10.50.29:011][798]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.08.26-10.50.29:011][798]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.08.26-10.50.29:011][798]LogFbx: ItemName: Model, ItemCount : 1
+[2016.08.26-10.50.29:011][798]LogFbx: ItemName: Material, ItemCount : 1
+[2016.08.26-10.50.31:671][798]LogFbx: Loading FBX Scene from E:\Laundry Room\Locker_open.fbx
+[2016.08.26-10.50.31:676][798]LogFbx: FBX Scene Loaded Succesfully
+[2016.08.26-10.50.31:678][798]LogFbx:Warning: Triangulating static mesh Cube.011
+[2016.08.26-10.50.31:703][798]LogFbx: == Initial material list:
+[2016.08.26-10.50.31:703][798]LogFbx: 0: Material.010
+[2016.08.26-10.50.31:703][798]LogFbx: == After sorting:
+[2016.08.26-10.50.31:703][798]LogFbx: 0: Material.010
+[2016.08.26-10.50.31:703][798]LogFbx: == Mapping table:
+[2016.08.26-10.50.31:703][798]LogFbx:   sort 0 -> 0
+[2016.08.26-10.50.31:703][798]LogStaticMesh: Building static mesh Locker_open...
+[2016.08.26-10.50.31:709][798]LogStaticMesh: Built static mesh [5.499635ms] /Game/Meshes/Locker_open.Locker_open
+[2016.08.26-10.50.31:733][798]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.08.26-10.50.31:896][798]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.08.26-10.50.31:896][798]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2016.08.26-10.50.42:441][313]LogActorFactory: Actor Factory created Locker_open
+[2016.08.26-10.50.43:531][365]LogActorFactory: Actor Factory created Locker_open
+[2016.08.26-10.50.45:080][412]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2016.08.26-10.51.18:971][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker3)
+[2016.08.26-10.51.31:247][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker_open)
+[2016.08.26-10.51.35:558][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker3)
+[2016.08.26-10.51.39:635][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker_open)
+[2016.08.26-10.51.45:931][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker3)
+[2016.08.26-10.51.48:770][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker_open)
+[2016.08.26-10.51.52:277][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker3)
+[2016.08.26-10.51.55:582][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker2)
+[2016.08.26-10.51.56:113][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker3)
+[2016.08.26-10.51.56:855][996]Cmd: DELETE
+[2016.08.26-10.51.56:855][996]Cmd: ACTOR DELETE
+[2016.08.26-10.51.56:890][996]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.08.26-10.51.56:906][996]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2016.08.26-10.51.58:242][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker_open)
+[2016.08.26-10.52.17:895][543]MapCheck: New page: Map Check
+[2016.08.26-10.52.17:985][543]LightingResults: New page: Lighting Build - Aug 27, 2016, 2:52:17 AM
+[2016.08.26-10.52.22:511][543]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.08.26-10.52.22:511][543]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.08.26-10.52.22:511][543]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.08.26-10.52.22:511][543]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.08.26-10.52.22:511][543]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.08.26-10.52.22:511][543]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.08.26-10.52.22:684][543]LogEditorBuildUtils: Build time 0:00:04
+[2016.08.26-10.52.45:413][397]Job is a success!
+[2016.08.26-10.52.45:880][398]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.52.45:881][398]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.52.46:039][398]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.52.46:039][398]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.52.46:281][398]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.08.26-10.52.46:708][398]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.08.26-10.52.46:711][398]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.08.26-10.52.46:718][398]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.08.26-10.52.46:877][398]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.08.26-10.52.47:190][398]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.08.26-10.52.47:726][398]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2016.08.26-10.52.47:830][398]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2016.08.26-10.52.47:896][398]Lightmass on ESHAN-WS: 24.7 sec total, 112 ms importing, 8 ms setup, 541 ms photons, 24.0 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 2:48 min total, 1:31 min processing.
+[2016.08.26-10.52.47:926][398]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-10.52.47:927][398]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-10.52.48:056][398]LogStaticLightingSystem: Illumination: 29.8 sec (1.66 sec encoding lightmaps)
+[2016.08.26-10.52.48:056][398]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.08.26-10.52.48:056][398]LogStaticLightingSystem: Shadowmap texture memory: 96.1 MB (96.1 MB streaming, 0.0 MB non-streaming), 18 textures
+[2016.08.26-10.52.48:537][399]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.08.26-10.52.48:537][399]MapCheck: New page: Minimal_Default - Aug 27, 2016, 2:52:48 AM
+[2016.08.26-10.52.48:553][399]MapCheck:Error: Error Cube2 Cube2 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.52.48:553][399]MapCheck:Error: Error Cube_14 Cube_14 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-10.52.48:617][399]MapCheck: Info Map check complete: 2 Error(s), 0 Warning(s), took 80.032ms to complete.
+[2016.08.26-10.52.50:248][442]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.08.26-10.53.22:045][691]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.08.26-10.53.34:578][675]Cmd: TRANSACTION UNDO
+[2016.08.26-10.53.34:578][675]LogEditorTransaction: Undo Move Actors
+[2016.08.26-10.53.51:021][916]LogSavePackage: Save=358.649017ms
+[2016.08.26-10.53.51:021][916]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default29D0387A427972E42A0EB89913CD6C77.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.08.26-10.53.51:065][916]LogFileHelpers: Saving map 'Minimal_Default' took 0.490
+[2016.08.26-10.53.51:089][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Locker_open" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Meshes/Locker_open.uasset" SILENT=true
+[2016.08.26-10.53.51:360][916]LogSavePackage: Save=269.352509ms
+[2016.08.26-10.53.51:360][916]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Locker_open6B5E2CB24BCA6D283E64DDB114DA6AFD.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Meshes/Locker_open.uasset'
+[2016.08.26-10.55.12:652][231]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.55.12:680][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2016.08.26-10.55.12:849][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2016.08.26-10.55.12:849][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2016.08.26-10.55.12:849][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2016.08.26-10.55.12:849][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2016.08.26-10.55.12:852][231]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-10.55.12:857][231]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-10.55.12:885][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.08.26-10.55.12:887][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.26-10.55.13:855][245]MaterialEditorStats: Info Base pass shader with static lighting: 75 instructions
+[2016.08.26-10.55.13:855][245]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2016.08.26-10.55.13:855][245]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-10.55.13:855][245]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.08.26-12.58.47:824][124]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2016.08.26-12.58.49:317][220]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.26-12.58.58:769][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002B50D00C20
+[2016.08.26-12.59.05:366][623]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-12.59.05:367][623]LogMaterial:Warning: Failed to compile Material /Game/Materials/Locker.Locker for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.26-12.59.05:367][623]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.26-12.59.05:367][623]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (0 / 0)
+[2016.08.26-12.59.05:368][623]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-12.59.05:368][623]LogMaterial:Warning: Failed to compile Material /Game/Materials/Locker.Locker for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.26-12.59.05:368][623]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.26-12.59.05:368][623]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-12.59.05:369][623]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-12.59.09:465][639]LogSavePackage: Save=300.596527ms
+[2016.08.26-12.59.09:465][639]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default_Auto2824815ED4E151827CE4C7B8BBDFD56C0.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2016.08.26-12.59.09:492][639]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.569
+[2016.08.26-12.59.09:492][639]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.569
+[2016.08.26-12.59.09:591][639]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Locker] ([1] browsable assets)...
+[2016.08.26-12.59.09:612][639]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/Locker.Locker]
+[2016.08.26-12.59.09:612][639]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Locker]
+[2016.08.26-12.59.09:630][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Locker" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Materials/Locker_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.08.26-12.59.10:172][639]LogSavePackage: Save=533.474670ms
+[2016.08.26-12.59.10:189][639]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Locker_Auto201B37D634B8543BA74A5D39C4AE438FA.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Materials/Locker_Auto2.uasset'
+[2016.08.26-12.59.10:320][639]LogFileHelpers: Auto-saving content packages took 0.828
+[2016.08.26-13.00.21:572][ 18]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 E:\Laundry Room\Locker Diffuse.png)
+[2016.08.26-13.00.21:657][ 18]0.000039 seconds to analyze Texture2D /Game/Textures/Locker_Diffuse.Locker_Diffuse
+
+[2016.08.26-13.00.21:660][ 18]LogTexture:Display: Building textures: Locker_Diffuse (AutoDXT)
+[2016.08.26-13.00.22:945][ 18]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 E:\Laundry Room\Locker Gloss.png)
+[2016.08.26-13.00.23:013][ 18]0.000055 seconds to analyze Texture2D /Game/Textures/Locker_Gloss.Locker_Gloss
+
+[2016.08.26-13.00.23:016][ 18]LogTexture:Display: Building textures: Locker_Gloss (AutoDXT)
+[2016.08.26-13.00.23:593][ 18]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 E:\Laundry Room\Locker Metal.png)
+[2016.08.26-13.00.23:663][ 18]0.000032 seconds to analyze Texture2D /Game/Textures/Locker_Metal.Locker_Metal
+
+[2016.08.26-13.00.23:666][ 18]LogTexture:Display: Building textures: Locker_Metal (AutoDXT)
+[2016.08.26-13.00.24:217][ 18]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 E:\Laundry Room\Locker Normals.png)
+[2016.08.26-13.00.24:320][ 18]0.000042 seconds to analyze Texture2D /Game/Textures/Locker_Normals.Locker_Normals
+
+[2016.08.26-13.00.24:392][ 18]LogTexture:Display: Building textures: Locker_Normals (BC5)
+[2016.08.26-13.00.24:757][ 18]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.08.26-13.00.24:757][ 18]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.26-13.00.24:757][ 18]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.26-13.00.24:757][ 18]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.26-13.00.24:757][ 18]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.26-13.00.28:475][181]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2016.08.26-13.00.34:288][265]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.00.34:289][265]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Locker for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.26-13.00.34:289][265]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.26-13.00.34:313][265]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2016.08.26-13.00.34:482][265]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2016.08.26-13.00.34:482][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2016.08.26-13.00.34:482][265]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2016.08.26-13.00.34:482][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2016.08.26-13.00.34:484][265]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.00.34:485][265]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Locker for platform PCD3D_SM5, Default Material will be used in game.
+[2016.08.26-13.00.34:485][265]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.08.26-13.00.34:485][265]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.00.34:513][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.08.26-13.00.34:515][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.26-13.00.34:930][265]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2016.08.26-13.00.39:688][416]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.00.39:692][416]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.00.40:342][426]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2016.08.26-13.00.40:342][426]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2016.08.26-13.00.40:342][426]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.08.26-13.00.40:342][426]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.08.26-13.00.40:639][429]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.00.40:644][429]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.00.41:308][440]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2016.08.26-13.00.41:308][440]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2016.08.26-13.00.41:308][440]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.08.26-13.00.41:308][440]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.08.26-13.00.42:122][457]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.26-13.00.49:671][586]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.00.49:675][586]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.00.49:676][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.26-13.00.49:701][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.26-13.00.49:714][586]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.00.49:719][586]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.00.49:719][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.26-13.00.49:746][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.26-13.00.49:748][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.26-13.00.49:761][586]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.00.49:765][586]LogMaterial: 0.000028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.00.49:765][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.26-13.00.49:792][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.26-13.00.49:794][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.26-13.00.49:796][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.26-13.00.49:805][586]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.00.49:810][586]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.00.49:811][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.08.26-13.00.49:838][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.26-13.00.49:841][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.26-13.00.49:843][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.26-13.00.49:845][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.08.26-13.00.50:429][592]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2016.08.26-13.00.50:429][592]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2016.08.26-13.00.50:429][592]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.08.26-13.00.50:429][592]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.08.26-13.01.17:364][238]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.01.17:368][238]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.01.17:396][238]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.26-13.01.18:234][249]MaterialEditorStats: Info Base pass shader with static lighting: 61 instructions
+[2016.08.26-13.01.18:234][249]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.08.26-13.01.18:234][249]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-13.01.18:234][249]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.08.26-13.01.20:280][309]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.08.26-13.01.20:280][309]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.26-13.01.29:972][621]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.01.29:976][621]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.01.30:005][621]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.26-13.01.30:778][635]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.08.26-13.01.30:778][635]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2016.08.26-13.01.30:778][635]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-13.01.30:778][635]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.08.26-13.01.39:449][854]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.01.39:453][854]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.01.39:483][854]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.08.26-13.01.40:508][857]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2016.08.26-13.01.40:508][857]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2016.08.26-13.01.40:508][857]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-13.01.40:508][857]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.08.26-13.01.48:097][124]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.01.48:102][124]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.01.48:132][124]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.26-13.01.48:660][134]MaterialEditorStats: Info Base pass shader with static lighting: 85 instructions
+[2016.08.26-13.01.48:660][134]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.08.26-13.01.48:660][134]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-13.01.48:660][134]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.08.26-13.02.05:640][857]LogMaterialEditor: Applying material Locker
+[2016.08.26-13.02.06:734][857]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.02.06:749][857]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.02.06:904][857]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.02.06:930][857]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.02.06:940][857]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-13.02.06:940][857]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-13.02.06:944][857]LogMaterial: 0.004914 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.02.08:639][890]MaterialEditorStats: Info Base pass shader with static lighting: 104 instructions
+[2016.08.26-13.02.08:639][890]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2016.08.26-13.02.08:639][890]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-13.02.08:639][890]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.08.26-13.02.10:240][940]LogMaterialEditor: Saving and Compiling material Locker
+[2016.08.26-13.02.11:363][940]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.02.11:379][940]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.02.11:599][940]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.02.11:623][940]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.02.11:634][940]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-13.02.11:634][940]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-13.02.11:644][940]LogMaterial: 0.011678 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.02.13:109][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Locker" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset" SILENT=true
+[2016.08.26-13.02.13:275][940]LogSavePackage: Save=157.124161ms
+[2016.08.26-13.02.13:275][940]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/LockerFC796C86457D81D47C947B95D47211B2.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset'
+[2016.08.26-13.02.35:423][704]LogMaterialEditor: Saving and Compiling material Locker
+[2016.08.26-13.02.36:539][704]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.02.36:554][704]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.02.36:720][704]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.02.36:750][704]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.02.36:759][704]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-13.02.36:759][704]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-13.02.36:766][704]LogMaterial: 0.007694 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.02.38:675][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Locker" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset" SILENT=true
+[2016.08.26-13.02.38:909][704]LogSavePackage: Save=225.077301ms
+[2016.08.26-13.02.38:909][704]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Locker409B08C54189FE11174019841C8213DA.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset'
+[2016.08.26-13.02.59:101][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker4)
+[2016.08.26-13.03.11:042][305]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.03.11:046][305]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.03.11:080][305]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.08.26-13.03.12:221][315]MaterialEditorStats: Info Base pass shader with static lighting: 83 instructions
+[2016.08.26-13.03.12:221][315]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2016.08.26-13.03.12:221][315]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-13.03.12:221][315]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.08.26-13.03.18:046][476]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.03.18:050][476]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.03.18:080][476]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.26-13.03.18:676][486]MaterialEditorStats: Info Base pass shader with static lighting: 85 instructions
+[2016.08.26-13.03.18:676][486]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.08.26-13.03.18:676][486]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-13.03.18:676][486]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.08.26-13.03.20:662][532]LogMaterialEditor: Saving and Compiling material Locker
+[2016.08.26-13.03.21:781][532]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.03.21:797][532]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.03.22:025][532]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.03.22:054][532]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.03.22:061][532]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-13.03.22:062][532]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-13.03.22:066][532]LogMaterial: 0.004596 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.03.23:609][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Locker" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset" SILENT=true
+[2016.08.26-13.03.23:787][532]LogSavePackage: Save=168.866577ms
+[2016.08.26-13.03.23:787][532]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/LockerEF0CB8CC4795A27D01E6A69166D9885D.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset'
+[2016.08.26-13.03.23:839][532]MaterialEditorStats: Info Base pass shader with static lighting: 104 instructions
+[2016.08.26-13.03.23:839][532]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2016.08.26-13.03.23:839][532]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-13.03.23:839][532]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.08.26-13.03.46:442][767]LogMaterialEditor: Saving and Compiling material Locker
+[2016.08.26-13.03.47:536][767]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.03.47:551][767]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.03.47:691][767]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.03.47:712][767]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.03.47:719][767]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-13.03.47:719][767]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-13.03.47:727][767]LogMaterial: 0.008264 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.03.49:759][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Locker" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset" SILENT=true
+[2016.08.26-13.03.50:024][767]LogSavePackage: Save=255.528275ms
+[2016.08.26-13.03.50:024][767]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/LockerB15BA8BB49E4D9F3055F978C74C3B7AD.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Locker.uasset'
+[2016.08.26-13.03.56:862][217]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.08.26-13.04.18:400][967]MapCheck: New page: Map Check
+[2016.08.26-13.04.18:481][967]LightingResults: New page: Lighting Build - Aug 27, 2016, 5:04:18 AM
+[2016.08.26-13.04.23:007][967]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.08.26-13.04.23:007][967]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.08.26-13.04.23:007][967]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.08.26-13.04.23:007][967]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.08.26-13.04.23:007][967]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.08.26-13.04.23:007][967]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.08.26-13.04.23:153][967]LogEditorBuildUtils: Build time 0:00:04
+[2016.08.26-13.04.23:199][967]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Locker, compiling. 
+[2016.08.26-13.04.23:202][967]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Locker, compiling. 
+[2016.08.26-13.04.23:939][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002B5AAA9940
+[2016.08.26-13.04.44:633][ 71]Job is a success!
+[2016.08.26-13.04.45:009][ 72]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-13.04.45:009][ 72]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-13.04.45:166][ 72]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-13.04.45:166][ 72]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-13.04.45:369][ 72]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.08.26-13.04.45:781][ 72]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.08.26-13.04.45:783][ 72]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.08.26-13.04.45:789][ 72]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.08.26-13.04.45:946][ 72]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.08.26-13.04.46:249][ 72]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.08.26-13.04.46:788][ 72]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2016.08.26-13.04.46:886][ 72]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2016.08.26-13.04.46:931][ 72]Lightmass on ESHAN-WS: 22.7 sec total, 102 ms importing, 6 ms setup, 533 ms photons, 22.0 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 2:34 min total, 1:24 min processing.
+[2016.08.26-13.04.46:972][ 72]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-13.04.46:972][ 72]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-13.04.47:070][ 72]LogStaticLightingSystem: Illumination: 28.4 sec (1.63 sec encoding lightmaps)
+[2016.08.26-13.04.47:070][ 72]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.08.26-13.04.47:070][ 72]LogStaticLightingSystem: Shadowmap texture memory: 106.8 MB (106.8 MB streaming, 0.0 MB non-streaming), 20 textures
+[2016.08.26-13.04.48:027][ 73]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.08.26-13.04.48:027][ 73]MapCheck: New page: Minimal_Default - Aug 27, 2016, 5:04:48 AM
+[2016.08.26-13.04.48:042][ 73]MapCheck:Error: Error Cube2 Cube2 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-13.04.48:042][ 73]MapCheck:Error: Error Cube_14 Cube_14 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-13.04.48:100][ 73]MapCheck: Info Map check complete: 2 Error(s), 0 Warning(s), took 72.27ms to complete.
+[2016.08.26-13.05.20:968][194]LogSavePackage: Save=428.643524ms
+[2016.08.26-13.05.20:968][194]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default29B615F74970FAEEDFD7C48015DD865F.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.08.26-13.05.20:980][194]LogFileHelpers: Saving map 'Minimal_Default' took 0.525
+[2016.08.26-13.05.20:990][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Locker_Diffuse" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Locker_Diffuse.uasset" SILENT=true
+[2016.08.26-13.05.24:634][194]LogSavePackage: Save=3642.335693ms
+[2016.08.26-13.05.24:634][194]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Locker_DiffuseA5BFBFE54BB098D94CD437A73B521ACF.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Locker_Diffuse.uasset'
+[2016.08.26-13.05.24:648][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Locker_Gloss" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Locker_Gloss.uasset" SILENT=true
+[2016.08.26-13.05.27:738][194]LogSavePackage: Save=3089.233154ms
+[2016.08.26-13.05.27:738][194]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Locker_Gloss7C76BF7D4DD911202F304F93799A44C1.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Locker_Gloss.uasset'
+[2016.08.26-13.05.27:755][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Locker_Metal" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Locker_Metal.uasset" SILENT=true
+[2016.08.26-13.05.31:243][194]LogSavePackage: Save=3486.855713ms
+[2016.08.26-13.05.31:243][194]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Locker_Metal595134464817FA956C1FD1A81659300A.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Locker_Metal.uasset'
+[2016.08.26-13.05.31:259][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Locker_Normals" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Locker_Normals.uasset" SILENT=true
+[2016.08.26-13.05.38:338][194]LogSavePackage: Save=7077.731934ms
+[2016.08.26-13.05.38:338][194]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Locker_Normals660CC88F4E658A7588AAC18CA30AAADA.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Locker_Normals.uasset'
+[2016.08.26-13.06.13:893][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker4)
+[2016.08.26-13.06.55:766][476]MapCheck: New page: Map Check
+[2016.08.26-13.06.55:848][476]LightingResults: New page: Lighting Build - Aug 27, 2016, 5:06:55 AM
+[2016.08.26-13.07.00:401][476]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.08.26-13.07.00:401][476]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.08.26-13.07.00:401][476]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.08.26-13.07.00:401][476]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.08.26-13.07.00:401][476]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.08.26-13.07.00:401][476]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.08.26-13.07.00:560][476]LogEditorBuildUtils: Build time 0:00:04
+[2016.08.26-13.07.20:609][303]Job is a success!
+[2016.08.26-13.07.21:107][304]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-13.07.21:108][304]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-13.07.21:263][304]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-13.07.21:263][304]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-13.07.21:454][304]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.08.26-13.07.21:868][304]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.08.26-13.07.21:871][304]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.08.26-13.07.21:876][304]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.08.26-13.07.22:034][304]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.08.26-13.07.22:350][304]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.08.26-13.07.22:890][304]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2016.08.26-13.07.22:991][304]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2016.08.26-13.07.23:032][304]Lightmass on ESHAN-WS: 22.0 sec total, 114 ms importing, 6 ms setup, 513 ms photons, 21.4 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 2:29 min total, 1:21 min processing.
+[2016.08.26-13.07.23:079][304]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.26-13.07.23:079][304]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.26-13.07.23:211][304]LogStaticLightingSystem: Illumination: 27.1 sec (1.65 sec encoding lightmaps)
+[2016.08.26-13.07.23:211][304]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.08.26-13.07.23:211][304]LogStaticLightingSystem: Shadowmap texture memory: 117.4 MB (117.4 MB streaming, 0.0 MB non-streaming), 22 textures
+[2016.08.26-13.07.28:406][305]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.08.26-13.07.28:406][305]MapCheck: New page: Minimal_Default - Aug 27, 2016, 5:07:28 AM
+[2016.08.26-13.07.28:422][305]MapCheck:Error: Error Cube2 Cube2 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-13.07.28:422][305]MapCheck:Error: Error Cube_14 Cube_14 : Invalid DrawScale/DrawScale3D 
+[2016.08.26-13.07.28:482][305]MapCheck: Info Map check complete: 2 Error(s), 0 Warning(s), took 75.996ms to complete.
+[2016.08.26-13.07.36:490][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Locker2)
+[2016.08.26-13.08.14:254][598]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2016.08.26-13.08.17:292][683]LogRenderer:Warning: Reallocating scene render targets to support 1432x928 (Frame:154424).
+[2016.08.26-13.08.33:036][ 52]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2016.08.26-13.08.33:570][ 76]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2016.08.26-13.08.38:966][387]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.08.38:991][387]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2016.08.26-13.08.39:141][387]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2016.08.26-13.08.39:141][387]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2016.08.26-13.08.39:141][387]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2016.08.26-13.08.39:141][387]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2016.08.26-13.08.39:144][387]LogMaterial: Missing cached shader map for material Locker, compiling. 
+[2016.08.26-13.08.39:148][387]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.26-13.08.39:177][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.26-13.08.39:179][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.08.26-13.08.39:182][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.26-13.08.39:184][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.26-13.08.40:132][405]MaterialEditorStats: Info Base pass shader with static lighting: 85 instructions
+[2016.08.26-13.08.40:132][405]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.08.26-13.08.40:132][405]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-13.08.40:132][405]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.08.26-13.08.42:298][432]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.26-13.08.42:299][432]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.08.26-13.08.42:301][432]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.26-13.08.42:302][432]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.26-13.09.16:011][ 68]MaterialEditorStats: Info Base pass shader with static lighting: 85 instructions
+[2016.08.26-13.09.16:011][ 68]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.08.26-13.09.16:011][ 68]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.26-13.09.16:011][ 68]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.08.26-13.09.34:040][732]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.08.26-13.10.18:161][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Walls)
+[2016.08.26-13.10.30:638][682]LogRenderer:Warning: Reallocating scene render targets to support 1488x928 (Frame:162300).
+[2016.08.26-13.10.36:475][192]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.08.26-13.11.01:553][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002B05C1E7A0
+[2016.08.26-13.11.01:583][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002B019C8220
+[2016.08.26-13.11.02:320][473]LogSavePackage: Save=304.584473ms
+[2016.08.26-13.11.02:320][473]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default7977D5BE48ED84170AFA439E3FEA1C0B.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.08.26-13.11.02:336][473]LogFileHelpers: Saving map 'Minimal_Default' took 0.409
+[2016.08.26-13.19.34:579][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Washer1)
+[2016.08.26-13.19.42:212][439]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.26-13.19.47:387][623]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Washer 1 Diffuse.png]
+[2016.08.26-13.19.47:387][623]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Washer 1 Diffuse.png)
+[2016.08.26-13.19.47:540][623]LogTexture:Display: Building textures: Washer_1_Diffuse (AutoDXT)
+[2016.08.26-13.19.48:041][623]LogEditorFactories: -- imported successfully
+[2016.08.26-13.21.01:751][711]LogSavePackage: Save=311.502197ms
+[2016.08.26-13.21.01:751][711]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default_Auto33BCB0BCF49BCF1466559ADBF26B0E1B0.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2016.08.26-13.21.01:828][711]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.595
+[2016.08.26-13.21.01:828][711]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.595
+[2016.08.26-13.21.01:938][711]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Washer_1_Diffuse] ([1] browsable assets)...
+[2016.08.26-13.21.01:961][711]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Washer_1_Diffuse.Washer_1_Diffuse]
+[2016.08.26-13.21.01:961][711]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Washer_1_Diffuse]
+[2016.08.26-13.21.04:953][711]LogSavePackage: Save=2933.003662ms
+[2016.08.26-13.21.04:954][711]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Washer_1_Diffuse_Auto3E6172FFE44FF35D294581C918D87397B.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Textures/Washer_1_Diffuse_Auto3.uasset'
+[2016.08.26-13.21.04:994][711]LogFileHelpers: Auto-saving content packages took 3.167
+[2016.08.26-13.21.08:254][ 28]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.08.26-13.21.29:722][983]LogSavePackage: Save=296.396881ms
+[2016.08.26-13.21.29:722][983]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default5ED7BEEC4712BDF5B4FF8791A056A368.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.08.26-13.21.29:736][983]LogFileHelpers: Saving map 'Minimal_Default' took 0.385
+[2016.08.26-13.21.29:742][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Washer_1_Diffuse" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Washer_1_Diffuse.uasset" SILENT=true
+[2016.08.26-13.21.29:759][983]LogSavePackage: Save=9.643184ms
+[2016.08.26-13.21.29:759][983]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Washer_1_Diffuse745E480E42B29C4E411E088F00603544.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Washer_1_Diffuse.uasset'
+[2016.08.26-13.24.14:258][650]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Washer 2 Gloss.png]
+[2016.08.26-13.24.14:258][650]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Washer 2 Gloss.png)
+[2016.08.26-13.24.14:436][650]LogTexture:Display: Building textures: Washer_2_Gloss (AutoDXT)
+[2016.08.26-13.24.15:231][650]LogEditorFactories: -- imported successfully
+[2016.08.26-13.27.13:397][904]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Washer 1 Normals.png]
+[2016.08.26-13.27.13:397][904]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Washer 1 Normals.png)
+[2016.08.26-13.27.13:617][904]LogTexture:Display: Building textures: Washer_1_Normals (BC5)
+[2016.08.26-13.27.13:958][904]LogEditorFactories: -- imported successfully
+[2016.08.26-13.27.21:940][212]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Washer2 Normals.png]
+[2016.08.26-13.27.21:940][212]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Washer2 Normals.png)
+[2016.08.26-13.27.22:122][212]LogTexture:Display: Building textures: Washer2_Normals (BC5)
+[2016.08.26-13.27.22:487][212]LogEditorFactories: -- imported successfully
+[2016.08.26-13.28.57:678][691]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Washer2 Normals.png]
+[2016.08.26-13.28.57:678][691]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Washer2 Normals.png)
+[2016.08.26-13.28.57:857][691]LogTexture:Display: Building textures: Washer2_Normals (BC5)
+[2016.08.26-13.28.58:243][691]LogEditorFactories: -- imported successfully
+[2016.08.26-13.29.11:641][427]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Washer 1 Normals.png]
+[2016.08.26-13.29.11:641][427]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Washer 1 Normals.png)
+[2016.08.26-13.29.11:810][427]LogTexture:Display: Building textures: Washer_1_Normals (BC5)
+[2016.08.26-13.29.12:158][427]LogEditorFactories: -- imported successfully
+[2016.08.26-13.29.19:600][647]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Washer2 Normals.png]
+[2016.08.26-13.29.19:600][647]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Washer2 Normals.png)
+[2016.08.26-13.29.19:775][647]LogTexture:Display: Building textures: Washer2_Normals (BC5)
+[2016.08.26-13.29.20:131][647]LogEditorFactories: -- imported successfully
+[2016.08.26-13.30.39:497][158]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Washer2 Normals.png]
+[2016.08.26-13.30.39:497][158]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Washer2 Normals.png)
+[2016.08.26-13.30.39:672][158]LogTexture:Display: Building textures: Washer2_Normals (BC5)
+[2016.08.26-13.30.40:041][158]LogEditorFactories: -- imported successfully
+[2016.08.26-13.31.13:970][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Washer1)
+[2016.08.26-13.31.16:865][675]Cmd: TRANSACTION UNDO
+[2016.08.26-13.31.16:865][675]LogEditorTransaction: Undo Move Actors
+[2016.08.26-13.32.15:738][223]LogSavePackage: Save=296.519714ms
+[2016.08.26-13.32.15:738][223]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default_Auto49244D10848A34E84A55295A9B45EDE22.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2016.08.26-13.32.15:776][223]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.498
+[2016.08.26-13.32.15:776][223]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.498
+[2016.08.26-13.32.15:882][223]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Washer_1_Normals] ([1] browsable assets)...
+[2016.08.26-13.32.15:905][223]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Washer_1_Normals.Washer_1_Normals]
+[2016.08.26-13.32.15:905][223]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Washer_1_Normals]
+[2016.08.26-13.32.20:008][223]LogSavePackage: Save=4060.695801ms
+[2016.08.26-13.32.20:009][223]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Washer_1_Normals_Auto4565C5945440C2CAA1AC54CA7FBFD7A5F.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Textures/Washer_1_Normals_Auto4.uasset'
+[2016.08.26-13.32.20:177][223]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Washer2_Normals] ([1] browsable assets)...
+[2016.08.26-13.32.20:192][223]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Washer2_Normals.Washer2_Normals]
+[2016.08.26-13.32.20:192][223]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Washer2_Normals]
+[2016.08.26-13.32.27:408][223]LogSavePackage: Save=7172.601563ms
+[2016.08.26-13.32.27:409][223]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Washer2_Normals_Auto479D4C22F4ECC13642C18289146B5ADEB.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Textures/Washer2_Normals_Auto4.uasset'
+[2016.08.26-13.32.27:547][223]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Washer_2_Gloss] ([1] browsable assets)...
+[2016.08.26-13.32.27:561][223]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Washer_2_Gloss.Washer_2_Gloss]
+[2016.08.26-13.32.27:561][223]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Washer_2_Gloss]
+[2016.08.26-13.32.34:754][223]LogSavePackage: Save=7148.871582ms
+[2016.08.26-13.32.34:754][223]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Washer_2_Gloss_Auto496EB151C4864B7F493909BA12C5D6519.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Textures/Washer_2_Gloss_Auto4.uasset'
+[2016.08.26-13.32.34:788][223]LogFileHelpers: Auto-saving content packages took 19.013
+[2016.08.26-13.32.45:847][153]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.08.26-13.34.21:356][493]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.08.26-13.35.11:087][665]LogSavePackage: Save=304.575043ms
+[2016.08.26-13.35.11:087][665]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default2A0D56454E9DCB1137AA47AD5457FF57.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.08.26-13.35.11:101][665]LogFileHelpers: Saving map 'Minimal_Default' took 0.397
+[2016.08.26-13.35.11:108][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Washer_1_Normals" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Washer_1_Normals.uasset" SILENT=true
+[2016.08.26-13.35.11:130][665]LogSavePackage: Save=13.200660ms
+[2016.08.26-13.35.11:130][665]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Washer_1_NormalsB28119154671C3515344ABBC996B561A.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Washer_1_Normals.uasset'
+[2016.08.26-13.35.11:144][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Washer2_Normals" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Washer2_Normals.uasset" SILENT=true
+[2016.08.26-13.35.11:169][665]LogSavePackage: Save=17.023565ms
+[2016.08.26-13.35.11:169][665]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Washer2_Normals9BB1F0DF410F9846A761EBA263CA5116.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Washer2_Normals.uasset'
+[2016.08.26-13.35.11:179][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Washer_2_Gloss" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Washer_2_Gloss.uasset" SILENT=true
+[2016.08.26-13.35.11:205][665]LogSavePackage: Save=17.033014ms
+[2016.08.26-13.35.11:205][665]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Washer_2_Gloss3D10E30D41E67BC18036668DD57C5557.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Washer_2_Gloss.uasset'
+[2016.08.26-13.35.23:078][850]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.08.26-13.35.24:706][943]Cmd: QUIT_EDITOR
+[2016.08.26-13.35.24:878][943]LogExit: Preparing to exit.
+[2016.08.26-13.35.25:806][943]LogExit: Editor shut down
+[2016.08.26-13.35.25:807][943]LogExit: Transaction tracking system shut down
+[2016.08.26-13.35.25:807][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002B25109F80
+[2016.08.26-13.35.25:808][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002B3D854D60
+[2016.08.26-13.35.25:808][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002B3E9BFA60
+[2016.08.26-13.35.25:808][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002B3E9BF4C0
+[2016.08.26-13.35.25:843][943]LogExit: Object subsystem successfully closed.
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (180)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module MaterialEditor (179)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module TextureEditor (178)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2016.08.26-13.35.25:880][943]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2016.08.26-13.35.25:881][943]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2016.08.26-13.35.25:881][943]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2016.08.26-13.35.25:881][943]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2016.08.26-13.35.25:881][943]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2016.08.26-13.35.25:881][943]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2016.08.26-13.35.25:881][943]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2016.08.26-13.35.25:881][943]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2016.08.26-13.35.25:881][943]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2016.08.26-13.35.26:802][943]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2016.08.26-13.35.26:867][943]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2016.08.26-13.35.26:867][943]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2016.08.26-13.35.26:867][943]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2016.08.26-13.35.26:868][943]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2016.08.26-13.35.27:087][943]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2016.08.26-13.35.27:088][943]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2016.08.26-13.35.27:088][943]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2016.08.26-13.35.27:088][943]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2016.08.26-13.35.27:189][943]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2016.08.26-13.35.27:189][943]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module Media (76)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2016.08.26-13.35.27:191][943]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2016.08.26-13.35.27:194][943]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2016.08.26-13.35.27:194][943]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2016.08.26-13.35.27:194][943]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2016.08.26-13.35.27:194][943]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2016.08.26-13.35.27:194][943]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2016.08.26-13.35.27:194][943]LogModuleManager: Shutting down and abandoning module Core (55)
+[2016.08.26-13.35.27:194][943]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2016.08.26-13.35.27:194][943]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2016.08.26-13.35.27:194][943]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2016.08.26-13.35.27:194][943]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2016.08.26-13.35.27:219][943]LogDerivedDataCache: Shutdown
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.08.26-13.35.27:219][943]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.08.26-13.35.27:220][943]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.08.26-13.35.27:220][943]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.08.26-13.35.27:220][943]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.26-13.35.27:220][943]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.26-13.35.27:220][943]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.26-13.35.27:220][943]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.26-13.35.27:220][943]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.26-13.35.27:220][943]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.26-13.35.27:220][943]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.26-13.35.27:221][943]LogExit: Exiting.
+[2016.08.26-13.35.27:224][943]Log file closed, 08/26/16 21:35:27

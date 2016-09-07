@@ -1,0 +1,553 @@
+﻿Log file open, 08/29/16 20:44:16
+LogInit:Display: Running engine for game: MyProject3
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: D:/Unreal/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2016.08.29-12.44.16:359][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2016.08.29-12.44.16:407][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.08.29-12.44.16:415][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.08.29-12.44.16:422][  0]LogInit: Object subsystem initialized
+[2016.08.29-12.44.16:423][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.08.29-12.44.16:423][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.08.29-12.44.16:423][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.08.29-12.44.16:423][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.08.29-12.44.16:423][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.08.29-12.44.16:423][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.08.29-12.44.16:424][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.29-12.44.16:424][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.29-12.44.16:429][  0]LogInit: Computer: ESHAN-WS
+[2016.08.29-12.44.16:429][  0]LogInit: User: Eshan
+[2016.08.29-12.44.16:429][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.08.29-12.44.16:429][  0]LogInit: High frequency timer resolution =3.386953 MHz
+[2016.08.29-12.44.16:429][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2016.08.29-12.44.16:429][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.29-12.44.16:429][  0]LogMemory: Process Physical Memory: 46.07 MB used, 46.07 MB peak
+[2016.08.29-12.44.16:429][  0]LogMemory: Process Virtual Memory: 26.63 MB used, 26.63 MB peak
+[2016.08.29-12.44.16:430][  0]LogMemory: Physical Memory: 7042.76 MB used, 16322.67 MB total
+[2016.08.29-12.44.16:430][  0]LogMemory: Virtual Memory: 293.51 MB used, 134217728.00 MB total
+[2016.08.29-12.44.16:451][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 Ti (Feature Level 11_0)
+[2016.08.29-12.44.16:451][  0]LogD3D11RHI: Adapter has 1984MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.08.29-12.44.16:452][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.08.29-12.44.16:452][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.08.29-12.44.16:452][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.08.29-12.44.16:455][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.29-12.44.16:463][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.29-12.44.16:515][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.08.29-12.44.16:557][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (D:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (D:/Unreal/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2016.08.29-12.44.16:557][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (D:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (D:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2016.08.29-12.44.16:616][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.08.29-12.44.18:213][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.29-12.44.18:498][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.29-12.44.18:537][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.29-12.44.18:566][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Eshan/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2016.08.29-12.44.18:566][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Eshan/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2016.08.29-12.44.18:566][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Eshan/Documents/Unreal Projects/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.29-12.44.18:566][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.29-12.44.18:654][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.29-12.44.18:665][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Eshan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.29-12.44.18:853][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.29-12.44.18:853][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.29-12.44.19:079][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.29-12.44.19:124][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2016.08.29-12.44.19:632][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.29-12.44.19:770][  0]SourceControl: Info Source control is disabled
+[2016.08.29-12.44.19:770][  0]SourceControl: Info Source control is disabled
+[2016.08.29-12.44.19:770][  0]SourceControl: Info Source control is disabled
+[2016.08.29-12.44.19:770][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2016.08.29-12.44.19:771][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2016.08.29-12.44.19:776][  0]SourceControl: Info Source control is disabled
+[2016.08.29-12.44.19:893][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2016.08.29-12.44.19:893][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2016.08.29-12.44.19:953][  0]LogEngine: Initializing Engine...
+[2016.08.29-12.44.23:067][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.29-12.44.23:082][  0]LogInit: FAudioDevice initialized.
+[2016.08.29-12.44.23:103][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.29-12.44.23:120][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Eshan/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2016.08.29-12.44.23:122][  0]LogInit: Texture streaming: Enabled
+[2016.08.29-12.44.23:179][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.08.29-12.44.23:179][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2016.08.29-12.44.23:179][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2016.08.29-12.44.23:179][  0]LogAnalytics: SetUserId 9341e7db41f29c63f25f3ca3f7e59d5b|0f0e5efa78674cc3929d7f77452aff42|46c1b6f5-baa3-4295-9f38-cd9b00ba563a
+[2016.08.29-12.44.23:179][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2016.08.29-12.44.23:195][  0]LogInit: Transaction tracking system initialized
+[2016.08.29-12.44.23:294][  0]BlueprintLog: New page: Editor Load
+[2016.08.29-12.44.23:318][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2016.08.29-12.44.23:318][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.08.29-12.44.23:634][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.29-12.44.23:845][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.29-12.44.24:021][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2016.08.29-12.44.24:021][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2016.08.29-12.44.24:024][  0]LogConsoleResponse:Display: 
+[2016.08.29-12.44.24:114][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.29-12.44.24:198][  0]SourceControl: Info Source control is disabled
+[2016.08.29-12.44.24:199][  0]Cmd: MAP LOAD FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.29-12.44.24:199][  0]LightingResults: New page: Lighting Build
+[2016.08.29-12.44.24:207][  0]MapCheck: New page: Map Check
+[2016.08.29-12.44.24:207][  0]LightingResults: New page: Lighting Build
+[2016.08.29-12.44.24:215][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000420B510D60
+[2016.08.29-12.44.24:758][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.08.29-12.44.25:197][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.08.29-12.44.25:450][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.08.29-12.44.25:464][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.29-12.44.25:465][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.29-12.44.25:470][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.29-12.44.25:570][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.08.29-12.44.25:571][  0]Cmd: MAP CHECKDEP
+[2016.08.29-12.44.25:571][  0]MapCheck: New page: Minimal_Default - Aug 30, 2016, 4:44:25 AM
+[2016.08.29-12.44.25:631][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.722ms to complete.
+[2016.08.29-12.44.25:631][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.431
+[2016.08.29-12.44.25:727][  0]LogCollectionManager: Loaded 0 collections in 0.000776 seconds
+[2016.08.29-12.44.25:734][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 1696 classes and 261 folders.
+[2016.08.29-12.44.25:752][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.08.29-12.44.25:784][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.29-12.44.25:785][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2016.08.29-12.44.25:790][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.29-12.44.25:815][  0]LogLoad: Full Startup: 11.01 seconds (BP compile: 0.06 seconds)
+[2016.08.29-12.44.26:188][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.29-12.44.26:284][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2016.08.29-12.44.26:434][  0]LogRenderer:Warning: Reallocating scene render targets to support 1152x616 (Frame:21).
+[2016.08.29-12.44.27:163][  3]LogAssetRegistry: Asset discovery search completed in 3.8550 seconds
+[2016.08.29-12.45.27:578][620]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2016.08.29-12.45.29:755][823]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.45.29:797][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2016.08.29-12.45.29:860][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.29-12.45.29:862][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.29-12.45.29:864][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.29-12.45.29:866][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.29-12.45.29:868][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2016.08.29-12.45.29:868][823]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2016.08.29-12.45.29:868][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2016.08.29-12.45.29:868][823]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2016.08.29-12.45.29:873][823]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.45.29:882][823]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.29-12.45.29:906][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.29-12.45.29:907][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.29-12.45.29:909][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.29-12.45.29:911][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.29-12.45.31:212][915]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
+[2016.08.29-12.45.31:212][915]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 57 instructions
+[2016.08.29-12.45.31:212][915]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.29-12.45.31:212][915]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.08.29-12.45.39:340][796]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.45.39:347][796]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.29-12.45.39:374][796]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.29-12.45.39:377][796]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.29-12.45.39:379][796]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.29-12.45.39:382][796]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.29-12.45.40:323][868]MaterialEditorStats: Info Base pass shader with static lighting: 89 instructions
+[2016.08.29-12.45.40:323][868]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2016.08.29-12.45.40:323][868]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.29-12.45.40:323][868]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.08.29-12.46.05:771][529]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.46.05:777][529]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.29-12.46.05:803][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.29-12.46.05:806][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.29-12.46.05:808][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.29-12.46.05:811][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.29-12.46.06:999][627]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
+[2016.08.29-12.46.06:999][627]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 57 instructions
+[2016.08.29-12.46.06:999][627]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.29-12.46.06:999][627]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.08.29-12.46.10:230][982]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.46.10:236][982]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.29-12.46.10:262][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.29-12.46.10:264][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.29-12.46.10:266][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.29-12.46.10:268][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.29-12.46.11:077][ 42]MaterialEditorStats: Info Base pass shader with static lighting: 89 instructions
+[2016.08.29-12.46.11:077][ 42]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2016.08.29-12.46.11:077][ 42]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.29-12.46.11:077][ 42]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.08.29-12.46.12:670][203]LogMaterialEditor: Applying material Bench
+[2016.08.29-12.46.13:766][203]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.46.13:794][203]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.29-12.46.13:854][203]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.46.13:896][203]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.46.13:907][203]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.29-12.46.13:907][203]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.29-12.46.13:912][203]LogMaterial: 0.005040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.29-12.46.16:815][461]MaterialEditorStats: Info Base pass shader with static lighting: 108 instructions
+[2016.08.29-12.46.16:815][461]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 77 instructions
+[2016.08.29-12.46.16:815][461]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.29-12.46.16:815][461]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.08.29-12.47.24:380][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bench)
+[2016.08.29-12.47.33:376][576]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.47.33:386][576]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.47.33:392][576]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.29-12.47.33:416][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.08.29-12.47.33:419][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.08.29-12.47.33:422][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.08.29-12.47.33:424][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.08.29-12.47.34:530][642]MaterialEditorStats: Info Base pass shader with static lighting: 93 instructions
+[2016.08.29-12.47.34:530][642]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2016.08.29-12.47.34:530][642]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.08.29-12.47.34:530][642]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.08.29-12.47.35:368][709]LogMaterialEditor: Applying material Bench
+[2016.08.29-12.47.36:453][709]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.47.36:479][709]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.29-12.47.36:538][709]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.47.36:573][709]LogMaterial: Missing cached shader map for material Bench, compiling. 
+[2016.08.29-12.47.36:583][709]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.08.29-12.47.36:583][709]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cube_14.StaticMeshComponent0)
+[2016.08.29-12.47.36:588][709]LogMaterial: 0.004694 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.29-12.47.42:612][329]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.08.29-12.54.26:401][587]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004200C514E0
+[2016.08.29-12.54.26:408][587]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.023
+[2016.08.29-12.54.26:444][587]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Bench] ([1] browsable assets)...
+[2016.08.29-12.54.26:501][587]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/Bench.Bench]
+[2016.08.29-12.54.26:501][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Bench]
+[2016.08.29-12.54.26:503][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Bench" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Materials/Bench_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.08.29-12.54.26:712][587]LogSavePackage: Save=198.006287ms
+[2016.08.29-12.54.26:716][587]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Bench_Auto173E10C0745E62AB9C65223AD91A2DC27.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Materials/Bench_Auto1.uasset'
+[2016.08.29-12.54.26:723][587]LogFileHelpers: Auto-saving content packages took 0.316
+[2016.08.29-13.09.22:417][410]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.29-13.09.36:801][807]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench Normals.png]
+[2016.08.29-13.09.36:806][807]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Bench Normals.png)
+[2016.08.29-13.09.37:051][807]LogTexture:Display: Building textures: Bench_Normals (BC5)
+[2016.08.29-13.09.37:467][807]LogEditorFactories: -- imported successfully
+[2016.08.29-13.09.55:733][840]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.011
+[2016.08.29-13.09.55:772][840]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Bench_Normals] ([1] browsable assets)...
+[2016.08.29-13.09.55:791][840]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Bench_Normals.Bench_Normals]
+[2016.08.29-13.09.55:791][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Bench_Normals]
+[2016.08.29-13.09.55:794][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Bench_Normals" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Textures/Bench_Normals_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.08.29-13.10.05:287][840]LogSavePackage: Save=9479.926758ms
+[2016.08.29-13.10.05:291][840]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Bench_Normals_Auto2B8D647E14E316AB833A850AEDD51B593.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Textures/Bench_Normals_Auto2.uasset'
+[2016.08.29-13.10.05:297][840]LogFileHelpers: Auto-saving content packages took 9.564
+[2016.08.29-13.10.45:682][875]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench Diffuse+Opacity.png]
+[2016.08.29-13.10.45:682][875]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Bench Diffuse+Opacity.png)
+[2016.08.29-13.10.45:882][875]LogTexture:Display: Building textures: Bench_Diffuse+Opacity (AutoDXT)
+[2016.08.29-13.10.48:555][875]LogEditorFactories: -- imported successfully
+[2016.08.29-13.11.02:337][938]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench Diffuse+Opacity.png]
+[2016.08.29-13.11.02:337][938]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Bench Diffuse+Opacity.png)
+[2016.08.29-13.11.02:532][938]LogTexture:Display: Building textures: Bench_Diffuse+Opacity (AutoDXT)
+[2016.08.29-13.11.05:138][938]LogEditorFactories: -- imported successfully
+[2016.08.29-13.12.18:026][617]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench Metal.png]
+[2016.08.29-13.12.18:026][617]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Bench Metal.png)
+[2016.08.29-13.12.18:196][617]LogTexture:Display: Building textures: Bench_Metal (AutoDXT)
+[2016.08.29-13.12.20:780][617]LogEditorFactories: -- imported successfully
+[2016.08.29-13.12.28:170][465]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench Metal.png]
+[2016.08.29-13.12.28:170][465]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Bench Metal.png)
+[2016.08.29-13.12.28:340][465]LogTexture:Display: Building textures: Bench_Metal (AutoDXT)
+[2016.08.29-13.12.30:859][465]LogEditorFactories: -- imported successfully
+[2016.08.29-13.13.42:150][ 32]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench Diffuse+Opacity.png]
+[2016.08.29-13.13.42:150][ 32]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Bench Diffuse+Opacity.png)
+[2016.08.29-13.13.42:346][ 32]LogTexture:Display: Building textures: Bench_Diffuse+Opacity (AutoDXT)
+[2016.08.29-13.13.44:890][ 32]LogEditorFactories: -- imported successfully
+[2016.08.29-13.16.31:684][182]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench Diffuse+Opacity.png]
+[2016.08.29-13.16.31:684][182]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Bench Diffuse+Opacity.png)
+[2016.08.29-13.16.31:896][182]LogTexture:Display: Building textures: Bench_Diffuse+Opacity (AutoDXT)
+[2016.08.29-13.16.34:564][182]LogEditorFactories: -- imported successfully
+[2016.08.29-13.16.39:606][590]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench Diffuse+Opacity.png]
+[2016.08.29-13.16.39:606][590]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Bench Diffuse+Opacity.png)
+[2016.08.29-13.16.39:805][590]LogTexture:Display: Building textures: Bench_Diffuse+Opacity (AutoDXT)
+[2016.08.29-13.16.42:408][590]LogEditorFactories: -- imported successfully
+[2016.08.29-13.19.37:846][161]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2016.08.29-13.19.38:696][241]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2016.08.29-13.19.41:263][510]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench.fbx]
+[2016.08.29-13.19.41:275][510]LogFbx: Loading FBX Scene from E:/Laundry Room/Bench.fbx
+[2016.08.29-13.19.41:282][510]LogFbx: FBX Scene Loaded Succesfully
+[2016.08.29-13.19.41:283][510]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2016.08.29-13.19.41:297][510]LogFbx:Warning: Triangulating static mesh Cube.012
+[2016.08.29-13.19.41:320][510]LogFbx: == Initial material list:
+[2016.08.29-13.19.41:320][510]LogFbx: 0: Material.011
+[2016.08.29-13.19.41:320][510]LogFbx: == After sorting:
+[2016.08.29-13.19.41:320][510]LogFbx: 0: Material.011
+[2016.08.29-13.19.41:320][510]LogFbx: == Mapping table:
+[2016.08.29-13.19.41:320][510]LogFbx:   sort 0 -> 0
+[2016.08.29-13.19.41:365][510]LogStaticMesh: Building static mesh Bench...
+[2016.08.29-13.19.41:386][510]LogStaticMesh: Built static mesh [20.810150ms] /Game/Meshes/Bench.Bench
+[2016.08.29-13.19.41:398][510]LogEditorFactories: -- imported successfully
+[2016.08.29-13.20.12:835][134]LogSavePackage: Save=242.601532ms
+[2016.08.29-13.20.12:835][134]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default_Auto3F1BAAC17422E3547E19F3D8DEF3C7D7F.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2016.08.29-13.20.12:844][134]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.344
+[2016.08.29-13.20.12:844][134]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.344
+[2016.08.29-13.20.12:881][134]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Bench_Diffuse+Opacity] ([1] browsable assets)...
+[2016.08.29-13.20.12:911][134]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Bench_Diffuse+Opacity.Bench_Diffuse+Opacity]
+[2016.08.29-13.20.12:911][134]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Bench_Diffuse+Opacity]
+[2016.08.29-13.20.24:460][134]LogSavePackage: Save=11533.162109ms
+[2016.08.29-13.20.24:461][134]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Bench_Diffuse+Opacity_Auto3044F3D9642DCD343127569AF4BBC1C7F.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Textures/Bench_Diffuse+Opacity_Auto3.uasset'
+[2016.08.29-13.20.24:504][134]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Bench_Metal] ([1] browsable assets)...
+[2016.08.29-13.20.24:522][134]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Bench_Metal.Bench_Metal]
+[2016.08.29-13.20.24:522][134]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Bench_Metal]
+[2016.08.29-13.20.24:525][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Bench_Metal" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Textures/Bench_Metal_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.08.29-13.20.31:611][134]LogSavePackage: Save=7075.534668ms
+[2016.08.29-13.20.31:619][134]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Bench_Metal_Auto34BFF0E514A8EC66866C8E6B1BC2E10D7.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Textures/Bench_Metal_Auto3.uasset'
+[2016.08.29-13.20.31:667][134]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Bench] ([1] browsable assets)...
+[2016.08.29-13.20.31:699][134]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Bench.Bench]
+[2016.08.29-13.20.31:699][134]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Bench]
+[2016.08.29-13.20.31:702][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Bench" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Meshes/Bench_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.08.29-13.20.32:068][134]LogSavePackage: Save=358.558563ms
+[2016.08.29-13.20.32:070][134]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Bench_Auto3C32CFB144EE00BA647BEB18C54780FD0.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Meshes/Bench_Auto3.uasset'
+[2016.08.29-13.20.32:085][134]LogFileHelpers: Auto-saving content packages took 19.241
+[2016.08.29-13.21.07:562][490]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench.fbx]
+[2016.08.29-13.21.07:568][490]LogFbx: Loading FBX Scene from E:/Laundry Room/Bench.fbx
+[2016.08.29-13.21.07:573][490]LogFbx: FBX Scene Loaded Succesfully
+[2016.08.29-13.21.07:575][490]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2016.08.29-13.21.07:575][490]LogFbx:Warning: Triangulating static mesh Cube.012
+[2016.08.29-13.21.07:594][490]LogFbx: == Initial material list:
+[2016.08.29-13.21.07:594][490]LogFbx: 0: Material.011
+[2016.08.29-13.21.07:594][490]LogFbx: == After sorting:
+[2016.08.29-13.21.07:594][490]LogFbx: 0: Material.011
+[2016.08.29-13.21.07:594][490]LogFbx: == Mapping table:
+[2016.08.29-13.21.07:594][490]LogFbx:   sort 0 -> 0
+[2016.08.29-13.21.07:648][490]LogStaticMesh: Building static mesh Bench...
+[2016.08.29-13.21.07:654][490]LogStaticMesh: Built static mesh [5.639877ms] /Game/Meshes/Bench.Bench
+[2016.08.29-13.21.07:665][490]LogEditorFactories: -- imported successfully
+[2016.08.29-13.21.13:176][ 50]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench.fbx]
+[2016.08.29-13.21.13:181][ 50]LogFbx: Loading FBX Scene from E:/Laundry Room/Bench.fbx
+[2016.08.29-13.21.13:186][ 50]LogFbx: FBX Scene Loaded Succesfully
+[2016.08.29-13.21.13:188][ 50]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2016.08.29-13.21.13:188][ 50]LogFbx:Warning: Triangulating static mesh Cube.012
+[2016.08.29-13.21.13:207][ 50]LogFbx: == Initial material list:
+[2016.08.29-13.21.13:207][ 50]LogFbx: 0: Material.011
+[2016.08.29-13.21.13:207][ 50]LogFbx: == After sorting:
+[2016.08.29-13.21.13:207][ 50]LogFbx: 0: Material.011
+[2016.08.29-13.21.13:207][ 50]LogFbx: == Mapping table:
+[2016.08.29-13.21.13:207][ 50]LogFbx:   sort 0 -> 0
+[2016.08.29-13.21.13:249][ 50]LogStaticMesh: Building static mesh Bench...
+[2016.08.29-13.21.13:255][ 50]LogStaticMesh: Built static mesh [5.764473ms] /Game/Meshes/Bench.Bench
+[2016.08.29-13.21.13:264][ 50]LogEditorFactories: -- imported successfully
+[2016.08.29-13.21.19:737][574]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench.fbx]
+[2016.08.29-13.21.19:743][574]LogFbx: Loading FBX Scene from E:/Laundry Room/Bench.fbx
+[2016.08.29-13.21.19:747][574]LogFbx: FBX Scene Loaded Succesfully
+[2016.08.29-13.21.19:749][574]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2016.08.29-13.21.19:750][574]LogFbx:Warning: Triangulating static mesh Cube.012
+[2016.08.29-13.21.19:769][574]LogFbx: == Initial material list:
+[2016.08.29-13.21.19:769][574]LogFbx: 0: Material.011
+[2016.08.29-13.21.19:769][574]LogFbx: == After sorting:
+[2016.08.29-13.21.19:769][574]LogFbx: 0: Material.011
+[2016.08.29-13.21.19:769][574]LogFbx: == Mapping table:
+[2016.08.29-13.21.19:769][574]LogFbx:   sort 0 -> 0
+[2016.08.29-13.21.19:815][574]LogStaticMesh: Building static mesh Bench...
+[2016.08.29-13.21.19:820][574]LogStaticMesh: Built static mesh [5.553664ms] /Game/Meshes/Bench.Bench
+[2016.08.29-13.21.19:831][574]LogEditorFactories: -- imported successfully
+[2016.08.29-13.22.51:681][308]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Walls)
+[2016.08.29-13.24.08:488][564]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2016.08.29-13.24.12:053][933]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench Diffuse+Opacity.png]
+[2016.08.29-13.24.12:053][933]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Bench Diffuse+Opacity.png)
+[2016.08.29-13.24.12:253][933]LogTexture:Display: Building textures: Bench_Diffuse+Opacity (AutoDXT)
+[2016.08.29-13.24.14:838][933]LogEditorFactories: -- imported successfully
+[2016.08.29-13.26.46:487][351]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench Diffuse+Opacity.png]
+[2016.08.29-13.26.46:487][351]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Bench Diffuse+Opacity.png)
+[2016.08.29-13.26.46:683][351]LogTexture:Display: Building textures: Bench_Diffuse+Opacity (AutoDXT)
+[2016.08.29-13.26.49:318][351]LogEditorFactories: -- imported successfully
+[2016.08.29-13.26.57:956][311]LogEditorFactories: Performing atomic reimport of [E:/Laundry Room/Bench Diffuse+Opacity.png]
+[2016.08.29-13.26.57:956][311]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Laundry Room/Bench Diffuse+Opacity.png)
+[2016.08.29-13.26.58:152][311]LogTexture:Display: Building textures: Bench_Diffuse+Opacity (AutoDXT)
+[2016.08.29-13.27.00:690][311]LogEditorFactories: -- imported successfully
+[2016.08.29-13.28.48:143][410]LogSavePackage: Save=232.103302ms
+[2016.08.29-13.28.48:143][410]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Minimal_Default8D8BA5F4443868034B01EBBE634D0EDA.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.08.29-13.28.48:155][410]LogFileHelpers: Saving map 'Minimal_Default' took 0.352
+[2016.08.29-13.28.48:162][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Bench" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Bench.uasset" SILENT=true
+[2016.08.29-13.28.48:173][410]LogSavePackage: Save=2.879579ms
+[2016.08.29-13.28.48:173][410]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/BenchABAD910246EAB604A058E2A43322FD7C.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Materials/Bench.uasset'
+[2016.08.29-13.28.48:190][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Bench_Diffuse+Opacity" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Bench_Diffuse+Opacity.uasset" SILENT=true
+[2016.08.29-13.28.59:303][410]LogSavePackage: Save=11102.883789ms
+[2016.08.29-13.28.59:303][410]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Bench_Diffuse+Opacity0B16F1E34D899DDDC0EB2A8BEA424AE1.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Bench_Diffuse+Opacity.uasset'
+[2016.08.29-13.28.59:353][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Bench_Metal" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Bench_Metal.uasset" SILENT=true
+[2016.08.29-13.28.59:394][410]LogSavePackage: Save=31.161636ms
+[2016.08.29-13.28.59:394][410]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Bench_MetalE75977DD4FC3CAAD898683911B3DB8F8.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Bench_Metal.uasset'
+[2016.08.29-13.28.59:402][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Bench_Normals" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Bench_Normals.uasset" SILENT=true
+[2016.08.29-13.28.59:464][410]LogSavePackage: Save=51.238384ms
+[2016.08.29-13.28.59:464][410]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Bench_Normals3399570242F01A32CC0034807A84BF0B.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Textures/Bench_Normals.uasset'
+[2016.08.29-13.28.59:492][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Bench" FILE="C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Meshes/Bench.uasset" SILENT=true
+[2016.08.29-13.28.59:744][410]LogSavePackage: Save=244.768387ms
+[2016.08.29-13.28.59:744][410]LogSavePackage: Moving 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Saved/Bench5D5DF433452838E1D998C293AEAF90C1.tmp' to 'C:/Users/Eshan/Documents/Unreal Projects/MyProject3/Content/Meshes/Bench.uasset'
+[2016.08.29-13.29.07:002][203]Cmd: QUIT_EDITOR
+[2016.08.29-13.29.07:170][203]LogExit: Preparing to exit.
+[2016.08.29-13.29.07:796][203]LogExit: Editor shut down
+[2016.08.29-13.29.07:796][203]LogExit: Transaction tracking system shut down
+[2016.08.29-13.29.07:797][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000421064BE20
+[2016.08.29-13.29.07:797][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042123BDF80
+[2016.08.29-13.29.07:797][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042113A7BA0
+[2016.08.29-13.29.07:797][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042113A7880
+[2016.08.29-13.29.07:834][203]LogExit: Object subsystem successfully closed.
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2016.08.29-13.29.07:868][203]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2016.08.29-13.29.07:869][203]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2016.08.29-13.29.08:064][203]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2016.08.29-13.29.08:133][203]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2016.08.29-13.29.08:133][203]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2016.08.29-13.29.08:133][203]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2016.08.29-13.29.08:134][203]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2016.08.29-13.29.08:234][203]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2016.08.29-13.29.08:235][203]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2016.08.29-13.29.08:235][203]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2016.08.29-13.29.08:235][203]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2016.08.29-13.29.08:235][203]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2016.08.29-13.29.08:235][203]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2016.08.29-13.29.08:235][203]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2016.08.29-13.29.08:235][203]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2016.08.29-13.29.08:235][203]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2016.08.29-13.29.08:235][203]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2016.08.29-13.29.08:235][203]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2016.08.29-13.29.08:336][203]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2016.08.29-13.29.08:336][203]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module Media (76)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2016.08.29-13.29.08:339][203]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2016.08.29-13.29.08:341][203]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2016.08.29-13.29.08:341][203]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2016.08.29-13.29.08:341][203]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2016.08.29-13.29.08:341][203]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2016.08.29-13.29.08:341][203]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2016.08.29-13.29.08:341][203]LogModuleManager: Shutting down and abandoning module Core (55)
+[2016.08.29-13.29.08:341][203]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2016.08.29-13.29.08:341][203]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2016.08.29-13.29.08:341][203]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2016.08.29-13.29.08:341][203]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2016.08.29-13.29.08:359][203]LogDerivedDataCache: Shutdown
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.08.29-13.29.08:359][203]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.08.29-13.29.08:360][203]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.08.29-13.29.08:360][203]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.08.29-13.29.08:360][203]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.29-13.29.08:360][203]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.29-13.29.08:360][203]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.29-13.29.08:360][203]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.29-13.29.08:361][203]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.29-13.29.08:361][203]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.29-13.29.08:361][203]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.29-13.29.08:361][203]LogExit: Exiting.
+[2016.08.29-13.29.08:365][203]Log file closed, 08/29/16 21:29:08
